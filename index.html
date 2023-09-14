@@ -17,107 +17,130 @@
         <a href="/" class="navbar-brand">
             Whisky Drop
         </a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2">
+                <a href="/" class="nav-link">
+                    Home
+                </a>
+            </li>
+            <li class="nav-item mr-2">
+                <a href="/about" class="nav-link">
+                    Aboot
+                </a>
+            </li>
+            <li class="nav-item mr-2 d-md-none d-sm-block">
+                <a href="/login" class="nav-link">Sign In / Sign Up</a>
+            </li>
+        </ul>
+        <div class="d-none d-md-block">
+            <p class="navbar-text mr-2 my-auto">
+                <i>Delicious drink to your door</i>
+                <a href="/login" class="ml-2">Sign In / Sign Up</a>
+            </p>
+        </div>
     </nav>
-    <main>
-        <!-- Main Bootstrap Container -->
-        <article class="container">
-            <!-- Callout -->
-            <section class="callout">
-                <div class="row">
-                    <div class="col-12">
-                        <h1>The finest whiskys delivered to your doorstep</h1>
-                        <p class="lead">
-                            Sign up today to start receiving the world's best whisky every month.
-                            <s>£19.99</s><strong><mark>First one is free!</mark></strong>
+    <!-- Main Bootstrap Container -->
+    <article class="container mt-3">
+        <!-- Callout -->
+        <section class="callout jumbotron text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1>The finest whiskys delivered to your doorstep</h1>
+                    <p class="lead">
+                        Sign up today to start receiving the world's best whisky every month.
+                        <s class="d-none d-sm-inline">£19.99</s>
+                        <span class="d-inline d-sm-none"><br></span>
+                        <strong>
+                            <mark>First one is free!</mark>
+                        </strong>
+                    </p>
+                    <p class="text-muted">
+                        <small>must be over 18 to sign up to our service. Please, drink responsibly.</small>
+                    </p>
+                    <button class="btn btn-success btn-lg">Sing Up!</button>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- Quotes -->
+        <section class="quotes">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2 class="text-uppercase">Quotes:</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <blockquote class="blockquote">
+                        <p>I've been introduced to more than ten great whiskys i never knew about!</p>
+                        <p>Jane Doe</p>
+                    </blockquote>
+                </div>
+                <div class="col-12 col-md-6">
+                    <blockquote class="blockquote">
+                        <p>I haven't been sober for months. Where are my socks?</p>
+                        <p>John Doe</p>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- Features -->
+        <section class="features">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2 class="text-uppercase">Features:</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Feature one</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur ut minus aperiam
+                            debitis
+                            nobis
+                            commodi laudantium in nemo suscipit, laboriosam et consequuntur fuga eum! Ipsa
+                            perferendis
+                            blanditiis aperiam veritatis saepe.
                         </p>
-                        <p class="text-muted">
-                            <small>must be over 18 to sign up to our service. Please, drink responsibly.</small>
+                        <p>
+                            <a class="btn btn-sm btn-light" href="">Read More</a>
                         </p>
-                        <button class="btn btn-success btn-lg">Sing Up!</button>
                     </div>
                 </div>
-            </section>
-            <hr>
-            <!-- Quotes -->
-            <section class="quotes">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="text-uppercase">Quotes:</h2>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Feature two</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur ut minus aperiam
+                            debitis
+                            nobis
+                            commodi laudantium in nemo suscipit, laboriosam et consequuntur fuga eum! Ipsa
+                            perferendis
+                            blanditiis aperiam veritatis saepe.
+                        </p>
+                        <p>
+                            <a class="btn btn-sm btn-light" href="">Read More</a>
+                        </p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <blockquote class="blockquote">
-                            <p>I've been introduced to more than ten great whiskys i never knew about!</p>
-                            <p>Jane Doe</p>
-                        </blockquote>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <blockquote class="blockquote">
-                            <p>I haven't been sober for months. Where are my socks?</p>
-                            <p>John Doe</p>
-                        </blockquote>
-                    </div>
-                </div>
-            </section>
-            <hr>
-            <!-- Features -->
-            <section class="features">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="text-uppercase">Features:</h2>
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <div class="feature">
+                        <h3>Feature three</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur ut minus aperiam
+                            debitis
+                            nobis
+                            commodi laudantium in nemo suscipit, laboriosam et consequuntur fuga eum! Ipsa
+                            perferendis
+                            blanditiis aperiam veritatis saepe.
+                        </p>
+                        <p>
+                            <a class="btn btn-sm btn-light" href="">Read More</a>
+                        </p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="feature">
-                            <h3>Feature one</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur ut minus aperiam
-                                debitis
-                                nobis
-                                commodi laudantium in nemo suscipit, laboriosam et consequuntur fuga eum! Ipsa
-                                perferendis
-                                blanditiis aperiam veritatis saepe.
-                            </p>
-                            <p>
-                                <a class="btn btn-sm btn-light" href="">Read More</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="feature">
-                            <h3>Feature two</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur ut minus aperiam
-                                debitis
-                                nobis
-                                commodi laudantium in nemo suscipit, laboriosam et consequuntur fuga eum! Ipsa
-                                perferendis
-                                blanditiis aperiam veritatis saepe.
-                            </p>
-                            <p>
-                                <a class="btn btn-sm btn-light" href="">Read More</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12 d-md-none d-lg-block col-lg-4">
-                        <div class="feature">
-                            <h3>Feature three</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur ut minus aperiam
-                                debitis
-                                nobis
-                                commodi laudantium in nemo suscipit, laboriosam et consequuntur fuga eum! Ipsa
-                                perferendis
-                                blanditiis aperiam veritatis saepe.
-                            </p>
-                            <p>
-                                <a class="btn btn-sm btn-light" href="">Read More</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </article>
-    </main>
+            </div>
+        </section>
+    </article>
     <!--Bootstrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
