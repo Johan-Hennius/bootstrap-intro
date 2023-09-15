@@ -7,7 +7,17 @@ body {
 }
 
 .callout-container {
+    height: 100vh;
+    
+    background-image: linear-gradient(to right, rgb(48, 48, 48), rgb(63, 63, 63) 60%, rgb(48, 48, 48)); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quotes-container {
@@ -15,5 +25,39 @@ body {
 }
 
 .features-container {
-    
+
+}
+
+/* Block dividers */
+.block-divider {
+    background-color: #d56400;
+    border: 0;
+    width: 33%;
+    height: 1em;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+
+
+.jumbotron-lead {
+    color: white;
+    margin: 2em auto;
 }
