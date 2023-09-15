@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #312223;
 }
 
 .alert-container {
@@ -10,7 +11,8 @@ body {
     height: 100vh;
     
     /* background-image: linear-gradient(to right, rgb(48, 48, 48), rgb(63, 63, 63) 60%, rgb(48, 48, 48));  */
-    background-image: url("../media/whiskybg.jpg") no-repeat, center top fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../media/whiskybg.jpg");
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -31,7 +33,7 @@ body {
 
 /* Block dividers */
 .block-divider {
-    background-color: #d56400;
+    background-color: #c1ccc4;
     border: 0;
     width: 33%;
     height: 1em;
@@ -56,9 +58,14 @@ body {
     color: #d0d0d0;
 }
 
-
+.free-mark {
+    color: white;
+    font-weight: bold;
+    background-color: #ce7018;
+}
 
 .jumbotron-lead {
     color: white;
-    margin: 2em auto;
+    margin-top: 2em;
+    margin-bottom: .5em;
 }
