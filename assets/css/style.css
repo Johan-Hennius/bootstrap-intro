@@ -9,7 +9,8 @@ body {
 .callout-container {
     height: 100vh;
     
-    background-image: linear-gradient(to right, rgb(48, 48, 48), rgb(63, 63, 63) 60%, rgb(48, 48, 48)); 
+    /* background-image: linear-gradient(to right, rgb(48, 48, 48), rgb(63, 63, 63) 60%, rgb(48, 48, 48));  */
+    background-image: url("../media/whiskybg.jpg") no-repeat, center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
