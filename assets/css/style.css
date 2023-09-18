@@ -210,3 +210,7 @@ body {
     color: #31648a;
     min-width: 7em;
 }
+
+.new-badge {
+    background-color: #ce7018;
+}
