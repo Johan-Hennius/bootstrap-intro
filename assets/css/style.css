@@ -3,6 +3,15 @@ body {
     color: #312223;
 }
 
+.container-wrapper {
+
+}
+
+.container-wrapper-blue {
+    background-color: #31648a;
+    color: white;
+}
+
 .alert-container {
     padding-left: 0;
     padding-right: 0;
@@ -27,12 +36,12 @@ body {
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../media/whiskybg.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,9 +55,23 @@ body {
 
 }
 
+/* Page Headers */
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 1.25em;
+}
+
 /* Block dividers */
 .block-divider {
-    background-color: #31648a;
     border: 0;
     width: 66%;
     height: 0.5em;
@@ -60,6 +83,13 @@ body {
 
 .block-divider-short {
     width: 33%;
+    background-color: #ce7018;
+}
+
+/* Content containers */
+.content-container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 /* Navbar */
@@ -144,4 +174,39 @@ body {
     border-radius: 1em;
     width: 10em;
     height: 2.5em;
+}
+
+.btn-nav-orange {
+    color: white;
+    background-color: #ce7018;
+    border-color: #ce7018;
+}
+
+.btn-nav-orange:hover,
+.btn-nav-orange:active,
+.btn-nav-orange:focus,
+.btn-nav-orange:active:focus {
+    background-color: #31648a;
+    border-color: #31648a;
+}
+
+/* Features */
+.feature {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.feature i {
+    margin-bottom: .5em;
+    margin-top: .5em;
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 1em;
+    color: #31648a;
+    min-width: 7em;
 }
