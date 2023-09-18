@@ -4,7 +4,22 @@ body {
 }
 
 .alert-container {
+    padding-left: 0;
+    padding-right: 0;
+}
 
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: .25 .5em;
+    background-color: #2faa54;
+    border-color: #2faa54;
+    color: white;
+}
+
+.site-wide-alert a {
+    color: white;
+    text-decoration: underline;
 }
 
 .callout-container {
