@@ -9,10 +9,10 @@ body {
 
 .callout-container {
     height: 100vh;
-    
-    /* background-image: linear-gradient(to right, rgb(48, 48, 48), rgb(63, 63, 63) 60%, rgb(48, 48, 48));  */
+
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../media/whiskybg.jpg");
     background-repeat: no-repeat;
+    background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,10 +33,18 @@ body {
 
 /* Block dividers */
 .block-divider {
-    background-color: #c1ccc4;
+    background-color: #31648a;
     border: 0;
+    width: 66%;
+    height: 0.5em;
+}
+
+.block-divider-blue {
+    background-color: #31648a;
+}
+
+.block-divider-short {
     width: 33%;
-    height: 1em;
 }
 
 
@@ -61,12 +69,35 @@ body {
 .free-mark {
     color: white;
     font-weight: bold;
-    background-color: #ce7018;
+    background-color: #31648a;
 }
 
 .jumbotron-lead {
-    color: white;
-    margin-top: 2em;
+    color: #d0d0d0;
+    margin-top: 1.5em;
     margin-bottom: .5em;
 }
 
+/* Buttons */
+.btn-cta {
+    font-size: 1.75em;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+}
+
+.btn-orange {
+    color: white;
+    background-color: #ce7018;
+    border-color: #ce7018;
+}
+
+.btn-orange:hover,
+.btn-orange:active,
+.btn-orange:focus,
+.btn-orange:active:focus {
+    background-color: #31648a;
+    border-color: #31648a;
+    font-size: 1.8em;
+}
